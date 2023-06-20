@@ -43,13 +43,13 @@ public class InvalidCardInformation {
            js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
         
            	//enter information 
-		       driver.findElement(By.id("billing_first_name")).sendKeys("Adisa");
-		       driver.findElement(By.id("billing_last_name")).sendKeys("Musinbegovic");
-           driver.findElement(By.id("billing_address_1")).sendKeys("Paromlinska 35");
-           driver.findElement(By.id("billing_postcode")).sendKeys("71000");
-           driver.findElement(By.id("billing_city")).sendKeys("Sarajevo");
+		       driver.findElement(By.id("billing_first_name")).sendKeys("Asja");
+		       driver.findElement(By.id("billing_last_name")).sendKeys("Msuhdsgd");
+           driver.findElement(By.id("billing_address_1")).sendKeys("bb");
+           driver.findElement(By.id("billing_postcode")).sendKeys("756532");
+           driver.findElement(By.id("billing_city")).sendKeys("Konjic");
            driver.findElement(By.id("billing_phone")).sendKeys("745637583548");
-           driver.findElement(By.id("billing_email")).sendKeys("adisa_tkd_@hotmail.com");
+           driver.findElement(By.id("billing_email")).sendKeys("asjahghkkk66@gmail.com");
 
            Thread.sleep(10000);
           
