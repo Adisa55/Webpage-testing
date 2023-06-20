@@ -18,7 +18,7 @@ public class SendingMessage {
         js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
        
 		//enter information to send message 
-		driver.findElement(By.id("ninja_forms_field_1")).sendKeys("Adisa Dvjsbgh");
+		driver.findElement(By.id("ninja_forms_field_1")).sendKeys("Asjaa Dvjsbgh");
 		driver.findElement(By.id("ninja_forms_field_9")).sendKeys("062756481");
         driver.findElement(By.id("ninja_forms_field_2")).sendKeys("jdfndjsfdd");
         driver.findElement(By.id("ninja_forms_field_3")).sendKeys("Postovanje, mozete li me obavijestiti kad stize nova kolekcija? Unaprijed hvala");

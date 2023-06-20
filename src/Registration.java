@@ -10,9 +10,9 @@ public class Registration {
 		driver.manage().window().maximize();
 		driver.get("https://moccacommerce.com/my-account/");
 		driver.findElement(By.id("wt-cli-accept-all-btn")).click();
-		driver.findElement(By.id("reg_username")).sendKeys("halil0098760");
-		driver.findElement(By.id("reg_email")).sendKeys("ahmedhalilovichghkkk66@gmail.com ");
-		driver.findElement(By.id("reg_password")).sendKeys("Visoko12345*");
+		driver.findElement(By.id("reg_username")).sendKeys("0098760");
+		driver.findElement(By.id("reg_email")).sendKeys("asjahghkkk66@gmail.com ");
+		driver.findElement(By.id("reg_password")).sendKeys("branch12345*");
 		driver.findElement(By.xpath("//*[@id=\"customer_login\"]/div[2]/div/form/p[4]/button")).click();
 
 		Thread.sleep(10000);
